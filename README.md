@@ -7,7 +7,7 @@ Initializes the input controls. If a `controls.profile` file exists, it loads th
 
 **Parameters:**
 - `input_array` *(array)*: Default input configuration array.
-Esach value should contain an array of inputs to check. Each value is equal to an action
+- Each value should contain an array of inputs to check. Each value is equal to an action
 
 ### `input_check(index)`
 Checks if an input at a specified index is currently active.
