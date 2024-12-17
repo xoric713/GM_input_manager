@@ -7,6 +7,7 @@ Initializes the input controls. If a `controls.profile` file exists, it loads th
 
 **Parameters:**
 - `input_array` *(array)*: Default input configuration array.
+Esach value should contain an array of inputs to check. Each value is equal to an action
 
 ### `input_check(index)`
 Checks if an input at a specified index is currently active.
@@ -48,6 +49,6 @@ A helper function to check input states for both keyboard and gamepad inputs. It
 
 ## Dependencies
 
-This script has a dependency on `GM_filemanager` for handling file operations, such as reading and writing the `controls.profile` file. The functions rely on `file_delete`, `file_exists`, `file_text_open_read`, `file_text_read_string`, `file_text_close`, `file_text_open_write`, and `file_text_write_string` for managing input configuration persistence.
+This script has a dependency on `GM_filemanager` for handling file operations, such as reading and writing the `controls.profile` file.
 
 All required files are included to ensure the input manager works seamlessly without additional configuration.
